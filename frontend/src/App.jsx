@@ -13,7 +13,8 @@ function App() {
   useEffect(() => {
     const fetchFoods = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/foods");
+       const response = await fetch("https://foodcompare-1.onrender.com/api/foods");git add .
+
 
         if (!response.ok) {
           throw new Error("Failed to fetch foods");
