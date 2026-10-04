@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchFoods = async () => {
       try {
-       const response = await fetch("https://foodcompare-1.onrender.com/api/foods");git add .
+       const response = await fetch("https://foodcompare-1.onrender.com/api/foods");
 
 
         if (!response.ok) {
