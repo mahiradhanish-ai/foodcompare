@@ -3,7 +3,7 @@ import "./App.css";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import FoodCard from "./components/FoodCard";
+import FoodCard from "./components/Foodcard";
 
 function App() {
   const [foods, setFoods] = useState([]);
